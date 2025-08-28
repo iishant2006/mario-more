@@ -7,7 +7,7 @@ int main(){
 
     // Gotta reprompt the stubborn user
     for (; h<2 ;){
-        printf("Enter the height for the pyramid: ");
+        printf("InValid height, Please Re-enter the height: ");
         scanf("%d", &h);
     }
 
@@ -36,4 +36,5 @@ int main(){
         printf("\n");
     }
     return 0;
+
 }
