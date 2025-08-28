@@ -7,7 +7,7 @@ int main(){
 
     // Gotta reprompt the stubborn user
     for (; h<2 ;){
-        printf("InValid height, Please Re-enter the height: ");
+        printf("Invalid height, Please Re-enter the height: ");
         scanf("%d", &h);
     }
 
@@ -38,3 +38,4 @@ int main(){
     return 0;
 
 }
+
